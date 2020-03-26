@@ -7,11 +7,11 @@ if __name__ == '__main__':
         print("Weird")
 
     # If even and between 2 and 5 (both included)
-    if N % 2 == 0 and 1 < N < 6:
+    if N % 2 == 0 and 2 <= N <= 5:
         print("Not Weird")
 
     # If even and between 6 and 20 (both included)
-    if N % 2 == 0 and 5 < N < 21:
+    if N % 2 == 0 and 6 <= N <= 20:
         print("Weird")
 
     # If even and greater than 20
