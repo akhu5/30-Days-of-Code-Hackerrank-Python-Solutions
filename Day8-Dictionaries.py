@@ -8,6 +8,7 @@ for i in range(0, T):
     number = int(s[1])
     pdict[name] = number
 
+# Checking if the data exists in dictionary
 for j in range(0, T):
     try:
         str1 = str(input()).rstrip()
